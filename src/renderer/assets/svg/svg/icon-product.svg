@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 31</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.984314 0 0 0 0 0.509804 0 0 0 0 0.176471 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="患者列表快捷服务-挂号服务" transform="translate(-566.000000, -789.000000)">
+            <g id="编组-35" transform="translate(408.000000, 778.000000)">
+                <g id="编组-31" transform="translate(140.000000, 0.000000)" filter="url(#filter-1)">
+                    <g transform="translate(18.000000, 11.000000)">
+                        <path d="M15.8114602,18.1818182 L4.1885398,18.1818182 C2.37821869,18.17973 0.911185949,16.7174671 0.909090909,14.9130319 C0.909090909,14.8909924 0.910484009,14.8689747 0.913146184,14.8470954 L2.086134,5.05185241 C2.10749221,3.26114567 3.56890905,1.82012896 5.36558289,1.81818182 L14.6344171,1.81818182 C16.4309922,1.8202671 17.8922556,3.26124395 17.9136125,5.05185241 L19.0868538,14.8458322 C19.089516,14.8677115 19.0909091,14.8897292 19.0909091,14.9117688 C19.0895124,16.7166972 17.6222755,18.1797287 15.8114602,18.1818182 Z" id="路径" stroke="#B9B9B9" stroke-width="1.3824" fill-rule="nonzero"></path>
+                        <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                        <path d="M7.27272727,6.36363636 C7.27272727,7.8698675 8.49376886,9.09090909 10,9.09090909 C11.5062311,9.09090909 12.7272727,7.8698675 12.7272727,6.36363636" id="路径" stroke="#B9B9B9" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

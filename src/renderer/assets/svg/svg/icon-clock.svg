@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 8</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.129412 0 0 0 0 0.450980 0 0 0 0 0.976471 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="患者列表（卡片）" transform="translate(-313.000000, -359.000000)">
+            <g id="预约" transform="translate(0.000000, 310.000000)" filter="url(#filter-1)">
+                <g transform="translate(314.000000, 49.000000)" id="编组-9" fill-rule="nonzero">
+                    <g id="编组-8" transform="translate(0.000000, 1.000000)">
+                        <path d="M7,0 C3.13400675,0 0,3.13400675 0,7 C0,10.8659932 3.13400675,14 7,14 C10.8659932,14 14,10.8659932 14,7 C14,5.14348457 13.2625021,3.36300718 11.9497475,2.05025253 C10.6369928,0.737497883 8.85651543,0 7,0 Z" id="路径" stroke="#B9B9B9"></path>
+                        <path d="M10.1248761,9.12569299 C9.90440367,9.36748341 9.50748418,9.40330502 9.237821,9.20574888 L6.76466586,7.38938647 C6.6183432,7.28236112 6.5333962,7.12192501 6.53333333,6.95247767 L6.53333333,4.29968225 C6.53338517,3.98688275 6.81583664,3.73333333 7.16424025,3.73333333 C7.51264387,3.73333333 7.79509534,3.98688275 7.79514718,4.29968225 L7.79514718,6.6832331 L10.0369698,8.3304208 C10.3048021,8.5285779 10.3440794,8.88374343 10.1248761,9.12531538 L10.1248761,9.12569299 Z" id="路径" fill="#B9B9B9"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

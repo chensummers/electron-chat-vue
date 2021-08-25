@@ -1,0 +1,43 @@
+// color
+$white:#ffffff;
+$color:#2173F9;
+$colorLight:#EBF3FF;
+$fontColor:#202020;
+$fontColorNormal:#909090;
+$fontColorLight:#B9B9B9;
+
+// width
+$leftSideWidth: 300px;
+
+// height
+$headerHeight: 40px;
+
+@mixin transTop50 {
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+
+@mixin positionCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin scrollY{
+  overflow-y: scroll;
+  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+@mixin scrollSmooth {
+  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}

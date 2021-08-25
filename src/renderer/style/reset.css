@@ -1,0 +1,79 @@
+body,dl,dd,h1,h2,h3,h4,h5,h6,p,form{margin:0;}
+ol,ul{margin:0;padding:0;list-style-type:none;}
+input, select{
+    border: none;
+    /*将默认的select选择框样式清除*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+select:focus { outline: none; }
+em, i{font-style:normal;}
+ /*strong{font-weight:normal;}*/
+* {font-family: inherit;line-height: inherit;color: inherit; outline: none;}
+html { font-family: PingFangSC-Medium, PingFang SC,'Microsoft Yahei','微软雅黑',\5FAE\8F6F\96C5\9ED1,'宋体',\5b8b\4f53,arial,'Hiragino Sans GB',Tahoma,Arial,Helvetica; font-size:18px; color: #202020;background:#ffffff;}
+body{
+    background: #FFFFFF;
+}
+h4,h5,h6{font-size:1em;}
+a{color:#3C3C3C;text-decoration:none;}
+a:hover{color:#f40;}
+label,button{cursor:pointer;}
+    /*image with no-border*/
+a img{border:0;}
+img{border:0;}
+
+    /*解决IE图片缩放失真*/
+img { -ms-interpolation-mode: bicubic; }
+
+    /*浮动效果*/
+.fl{float:left;}.fr{float:right;}.cl{clear:both;}
+
+    /*清除浮动*/
+.clearfix{*zoom:1;}.clearfix:after,.clearfix:before{display:block; content:"clear"; height:0; clear:both; overflow:hidden; visibility:hidden;}.z{_zoom:1;}
+
+    /*连续英文、数字换行*/
+.wordwrap { word-break: break-all; word-wrap: break-word; }
+    /*单行文字超出显示省略号*/
+.omg{overflow: hidden; text-overflow: ellipsis; white-space:nowrap;}
+
+    /*水平对齐方式*/
+.tc{text-align:center;}
+.tr{text-align:right;}.tl{text-align:left;}
+
+::-webkit-scrollbar {
+    width: 2px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(10, 10, 10, 0.1);
+    -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: rgba(125, 125, 125, 0.4);
+    -webkit-border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 2px;
+    background-color: rgba(125, 125, 125, 0.4);
+    -webkit-border-radius: 3px;
+}
+.not-select{
+    -moz-user-select:none; /*火狐*/
+    -webkit-user-select:none; /*webkit浏览器*/
+    -ms-user-select:none; /*IE10*/
+    -khtml-user-select:none; /*早期浏览器*/
+    user-select:none;
+}
+
+/*  去除input type="number" 的控制按钮 */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance:none
+}
+input[type="number"] {
+    -moz-appearance:textfield
+}

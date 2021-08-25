@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>退出备份 2</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="退出备份-2" transform="translate(-1836.000000, -23.000000)" filter="url(#filter-1)">
+            <g transform="translate(1836.000000, 23.000000)">
+                <path d="M6.63189173,4.15186616 C3.84705603,5.9271182 2,9.04304964 2,12.5903841 C2,18.1132316 6.4771525,22.5903841 12,22.5903841 C17.5228475,22.5903841 22,18.1132316 22,12.5903841 C22,8.96654476 20.0724144,5.79291712 17.1866283,4.03888619" id="路径" stroke="#B9B9B9" stroke-width="1.6" stroke-linecap="round"></path>
+                <rect id="矩形" fill="#B9B9B9" x="11" y="1" width="1.6" height="8" rx="0.8"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

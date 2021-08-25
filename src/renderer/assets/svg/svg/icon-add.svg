@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 7</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="患者列表基础信息-家庭标签" transform="translate(-1253.000000, -628.000000)" fill="#2173F9">
+            <g id="编组-25" transform="translate(1117.000000, 336.000000)">
+                <g id="编组-20" transform="translate(136.000000, 289.000000)">
+                    <g id="编组-7" transform="translate(0.000000, 3.000000)">
+                        <rect id="矩形" x="0" y="6.90909091" width="16" height="2.18181818" rx="0.972"></rect>
+                        <path d="M0.972,6.90909091 L15.028,6.90909091 C15.5648208,6.90909091 16,7.34427013 16,7.88109091 L16,8.11890909 C16,8.65572987 15.5648208,9.09090909 15.028,9.09090909 L0.972,9.09090909 C0.435179223,9.09090909 2.3143622e-13,8.65572987 2.30926389e-13,8.11890909 L2.30926389e-13,7.88109091 C2.30860648e-13,7.34427013 0.435179223,6.90909091 0.972,6.90909091 Z" id="矩形备份" transform="translate(8.000000, 8.000000) rotate(-90.000000) translate(-8.000000, -8.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 33</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.721569 0 0 0 0 0.325490 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="患者列表快捷服务-挂号服务" transform="translate(-830.000000, -789.000000)">
+            <g id="编组-35" transform="translate(408.000000, 778.000000)">
+                <g id="编组-33" transform="translate(404.000000, 0.000000)" filter="url(#filter-1)">
+                    <g transform="translate(18.000000, 11.000000)">
+                        <rect id="矩形" stroke="#979797" stroke-width="0.9" fill="#D8D8D8" opacity="0" x="0.45" y="0.45" width="19.1" height="19.1"></rect>
+                        <path d="M6.36363636,19.0909091 L6.36363636,19.0909091 L2.72727273,19.0909091 C1.72311864,19.0909091 0.909090909,18.2768814 0.909090909,17.2727273 L0.909090909,2.72727273 C0.909090909,1.72311864 1.72311864,0.909090909 2.72727273,0.909090909 L16.3636364,0.909090909 C17.3677905,0.909090909 18.1818182,1.72311864 18.1818182,2.72727273 L18.1818182,9.09090909 L18.1818182,9.09090909" id="路径" stroke="#B9B9B9" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <polyline id="路径-6" stroke="#B9B9B9" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" points="5.45454545 7.27272727 9.09090909 10.9090909 13.6363636 6.36363636 14.5454545 5.45454545"></polyline>
+                        <line x1="10" y1="15.4545455" x2="19.0909091" y2="15.4545455" id="路径-7" stroke="#B9B9B9" stroke-width="1.44" stroke-linecap="round"></line>
+                        <polyline id="路径-8" stroke="#B9B9B9" stroke-width="1.44" stroke-linecap="round" stroke-linejoin="round" points="16.3636364 12.7272727 19.0909091 15.4545455 16.3636364 18.1818182"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

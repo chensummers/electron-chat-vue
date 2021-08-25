@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 16</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="患者列表（卡片）备份-2" transform="translate(-448.000000, -870.000000)">
+            <g id="编组-16" transform="translate(448.000000, 870.000000)">
+                <path d="M23,2.8 C23.3313708,2.8 23.6313708,2.93431458 23.8485281,3.15147186 C24.0656854,3.36862915 24.2,3.66862915 24.2,4 L24.2,4 L24.2,21 C24.2,21.3313708 24.0656854,21.6313708 23.8485281,21.8485281 C23.6313708,22.0656854 23.3313708,22.2 23,22.2 L23,22.2 L3,22.2 C2.66862915,22.2 2.36862915,22.0656854 2.15147186,21.8485281 C1.93431458,21.6313708 1.8,21.3313708 1.8,21 L1.8,21 L1.8,4 C1.8,3.66862915 1.93431458,3.36862915 2.15147186,3.15147186 C2.36862915,2.93431458 2.66862915,2.8 3,2.8 L3,2.8 Z" id="矩形" stroke="#606060" stroke-width="1.6"></path>
+                <polyline id="路径-5" stroke="#606060" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" points="2 18 6 14 9 18 16 11 24 19"></polyline>
+                <circle id="椭圆形" fill="#606060" cx="7.5" cy="8.5" r="1.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
