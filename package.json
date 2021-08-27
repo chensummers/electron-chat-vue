@@ -25,6 +25,18 @@
     "files": [
       "dist/electron/**/*"
     ],
+    "nsis": {
+      "oneClick": false,
+      "allowElevation": true,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "./build/icons/icon.ico",
+      "uninstallerIcon": "./build/icons/icon.ico",
+      "installerHeaderIcon": "./build/icons/icon.ico",
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "xxxx",
+      "include": "build/script/installer.nsh"
+    },
     "dmg": {
       "contents": [
         {
@@ -44,7 +56,12 @@
       "icon": "build/icons/icon.icns"
     },
     "win": {
-      "icon": "build/icons/icon.ico"
+      "icon": "build/icons/icon.ico",
+      "target":[
+        {
+          "target": "nsis"
+        }
+      ]
     },
     "linux": {
       "icon": "build/icons"

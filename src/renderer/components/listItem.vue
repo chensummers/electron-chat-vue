@@ -1,5 +1,5 @@
 <template>
-  <div class="list-item-wrap not-select">
+  <div class="list-item-wrap not-select" @click="handleChoosePatient">
     <div class="avatar-wrap">
       <span class="news-num">6</span>
       <!-- <img class="img" src="" alt=""> -->
@@ -29,8 +29,15 @@
 </template>
 
 <script>
+const ipcRenderer = require('electron').ipcRenderer;
 export default {
-  name: 'listItem'
+  name: 'listItem',
+  methods:{
+    handleChoosePatient() {
+      console.log('/listItem.vue [36]--1','render');
+      ipcRenderer.send('addChild',location.origin)
+    }
+  }
 
 }
 </script>

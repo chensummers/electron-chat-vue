@@ -139,9 +139,11 @@ export default {
             .tab-list{
                 display: flex;
                 .tab-desc{
-                    width: 110px;
+                    // width: 110px;
+                    padding: 0 12px;
+                    line-height: 26px;
                     text-align: center;
-                    font-size: 18px;
+                    font-size: 14px;
                     color: #909090;
                     cursor: pointer;
                 }
@@ -154,8 +156,8 @@ export default {
                 display: flex;
                 .tab-btn{
                     width: 52px;
-                    height: 32px;
-                    line-height: 32px;
+                    height: 26px;
+                    line-height: 26px;
                     text-align: center;
                     background: #F6F6F6;
                     font-size: 14px;

@@ -100,20 +100,20 @@ export default {
 <style lang="scss" scoped>
 .tab-content-wrap {
   box-sizing: border-box;
-  padding: 0 20px;
+  padding: 0 10px;
   text-align: center;
   .tab-wrap,
   .sub-tab-wrap {
     display: flex;
     align-items: center;
-    font-size: 22px;
+    font-size: 16px;
     font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #909090;
-    line-height: 30px;
+    line-height: 20px;
     margin-bottom: 20px;
     div {
-      margin-right: 78px;
+      margin-right: 40px;
       cursor: pointer;
       &.active {
         font-weight: 700;
@@ -122,15 +122,15 @@ export default {
     }
   }
   .sub-tab-wrap {
-    font-size: 18px;
+    font-size: 14px;
     font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #909090;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     div {
       width: 117px;
-      height: 42px;
-      line-height: 42px;
+      height: 26px;
+      line-height: 26px;
       background: #ffffff;
       border-radius: 21px;
       margin-right: 11px;

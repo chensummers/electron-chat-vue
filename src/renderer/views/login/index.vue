@@ -81,6 +81,13 @@ export default {
     };
   },
   mounted() {
+    let userId = localStorage.getItem('userId');
+    if(!userId) {
+      this.$router.push('/login')
+    }else{
+      this.$router.push('/chat')
+    }
+    
     this.$nextTick(() => {
       this.form.validateFields();
     });
@@ -102,6 +109,22 @@ export default {
       e.preventDefault();
       this.form.validateFields((err, values) => {
         if (!err) {
+          const {userName,code,password} = values;
+          if(userName !='admin') {
+            this.$message.error('账号输入错误');
+            return;
+          }
+          if(password !='123') {
+            this.$message.error('密码输入错误');
+            return;
+          }
+          if(code !='123') {
+            this.$message.error('验证码输入错误');
+            return;
+          }
+          
+          this.$router.push('/chat')
+          localStorage.setItem('userId',10000)
           console.log("Received values of form: ", values);
         }
       });
@@ -111,15 +134,16 @@ export default {
 </script>
 <style lang="scss" scoped>
 .login {
-  min-width: 1200px;
-  background: url("../..//assets/login/login-bg.png");
+  width: 800px;
+  // height: 563px;
+  background: url("../../assets/login/login-bg.png");
   background-size: 100% 100%;
   width: 100%;
   height: 100%;
   position: relative;
   .content {
-    width: 837px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
     position: absolute;
     left: 50%;
     top: 50%;

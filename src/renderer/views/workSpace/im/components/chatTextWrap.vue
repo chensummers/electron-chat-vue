@@ -85,10 +85,10 @@ export default {
     display: flex;
     align-items: flex-start;
     .img {
-      width: 52px;
-      height: 52px;
-      flex: 0 0 52px;
-      border-radius: 52px;
+      width: 40px;
+      height: 40px;
+      flex: 0 0 40px;
+      border-radius: 40px;
       border: 1px solid #ccc;
       overflow: hidden;
       img {
@@ -100,7 +100,7 @@ export default {
       padding: 4px 10px;
       background-color: #f2f5f8;
       color: #000;
-      font-size: 16px;
+      font-size: 14px;
       max-width: 70%;
       min-width: 30px;
       margin-top: 6px;
@@ -108,7 +108,7 @@ export default {
 
       .card {
         padding: 10px 0 0 10px;
-        width: 300px;
+        width: 200px;
         .card-top {
           display: flex;
           justify-content: space-between;
@@ -118,15 +118,15 @@ export default {
           .card-left {
             flex: 1;
             .title {
-              font-size: 18px;
+              font-size: 16px;
               color: #202020;
               font-weight: bold;
             }
           }
           .card-right {
-            width: 80px;
-            height: 80px;
-            flex: 0 0 80px;
+            width: 60px;
+            height: 60px;
+            flex: 0 0 60px;
             margin-left: 10px;
             &.card-icon {
                 // padding: 20px;
@@ -139,7 +139,7 @@ export default {
           }
         }
         .detail {
-            font-size: 16px;
+            font-size: 14px;
             color: #2173F9;
         }
       }

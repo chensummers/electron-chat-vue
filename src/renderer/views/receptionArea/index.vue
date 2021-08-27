@@ -118,7 +118,7 @@ export default {
 <style lang="scss" scoped>
 .reception-area-wrap{
   width: $leftSideWidth;
-  min-width: 300px;
+  min-width: $leftSideWidth;
   height: 100%;
   overflow: hidden;
   color: $fontColor;
